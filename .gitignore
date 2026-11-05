@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Builds nativos (gerados por prebuild / expo run)
+/ios
+/android
+*.apk
+*.aab
+*.ipa
+
+# Metro / sistema
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+*.pem
+*.tsbuildinfo
+
+# Segredos locais
+.env
+.env.*
+!.env.example
